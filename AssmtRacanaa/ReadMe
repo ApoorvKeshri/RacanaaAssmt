@@ -1,0 +1,27 @@
+http://the-internet.herokuapp.com/upload" and uploading a file:
+
+Set up the environment:
+
+Download and install the required browser driver (e.g., ChromeDriver).
+Set the path to the browser driver executable in your code.
+Create a new instance of the WebDriver (e.g., ChromeDriver).
+
+Navigate to the URL "http://the-internet.herokuapp.com/upload" using the WebDriver.
+
+Locate the file upload input field using appropriate WebDriver locator methods (e.g., findElement with By.id).
+
+Provide the file path of the file to be uploaded by sending the file path to the file upload input field using the sendKeys method.
+
+Locate the upload button using appropriate WebDriver locator methods.
+
+Click the upload button using the click method.
+
+Implement a wait mechanism to wait for the upload process to complete. You can use explicit waits to wait for specific elements or conditions on the page.
+
+Verify if the file is uploaded successfully:
+
+Locate the element that displays the uploaded file name (e.g., <div id="uploaded-files">).
+Retrieve the text of the element using appropriate WebDriver methods (e.g., getText).
+Compare the uploaded file name with the expected file name.
+Print a message indicating whether the file upload was successful or not.
+Close the browser using the quit method of the WebDriver.
